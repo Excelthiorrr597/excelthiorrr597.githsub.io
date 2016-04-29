@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(120, 127, 130, .6);
+    font-family: 'Cinzel', serif;
+    transition: -webkit-filter 2s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#portrait {
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    transform: translateY(45%);
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,.7);
+}
+
+#name {
+    transform: translateY(100%);
+    color: white;
+    text-align: center;
+}
+
+.aboutMe {
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading {
+    margin-top: 0px;
+}
+
+#snippet {
+    float: right;
+}
+
+section {
+    padding-left: 15px;
+}
+
+.work {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tog {
+    padding-left: 15px;
+}
+
+.tog:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.examples {
+    padding-top: 20px;
+}
+
+.holder {
+    width: 300px;
+}
+
+.examples div {
+    margin: auto;
+}
+
+div img {
+    display: block;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.descr {
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer div div {
+    color: white;
+}
+
+.icons {
+    height: 40px;
+    margin: auto;
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+

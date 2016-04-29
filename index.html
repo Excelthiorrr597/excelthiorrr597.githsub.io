@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./styles/animate.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <title>Welcome to my Portfolio</title>
+    </head>
+    <body>
+        <header class="container-fluid">
+            <nav></nav>
+        </header>
+        <div id="top" class="container-fluid">
+            <img src="./images/me.jpg" id="portrait">
+        </div>
+        <section class="jumbotron">
+            <h2 id="name">Jonathon Gregory</h2>
+        </section>
+        <div class="container">
+            <div class="col-sm-6">
+                <h1 id="heading">A little about me</h1>
+                <p class="body aboutMe" style="font-size:1.25em">Freelance Trumpet player and Private Lessons Teacher turned coder, I'm passionate about all things technology and I love to code.<br>Front End Developer working to become a Fullstack Developer, I continue to expand my languages and libraries.</p>
+            </div>
+            <div class="col-sm-6">
+                <p id="snippet" class="lead aboutMe">I received both my undergrad and my master's in Trumpet Performance and once I graduated I started teaching and quickly learned that it wasn't for me.  I've always had an extreme interest in all things technology, and decided to begin this new journey.  I completed the Front-End Development Course at the Iron Yard.</p>
+            </div>
+        </div>
+        <div class="container languages">
+            <section>
+                <h2>Languages</h2>
+                <ul class="list-inline">
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h3>Libraries</h3>
+                <ul class="list-inline">
+                    <li>jQuery</li>
+                    <li>Backbone</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container work">
+            <h2 class="tog">Some of my work</h2>
+            <div class="row examples">
+                <div class="col-sm-4">
+                    <div class="holder">
+                        <a href="http://jchargregory.com/weatherAppReact"><img src="./images/weatherApp.png" alt="">
+                        <p class="descr">This is a mock weather site created using React, as well as Forecast.io's API.</p></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="holder 2">
+                        <a href="http://jchargregory.com/giphyReact"><img src="./images/giphy.png" alt="">
+                        <p class="descr">An app that uses Giphy's API to access gifs.  Can search enlarge gifs. Made with React.</p></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="holder">
+                        <a href="http://jchargregory.com/finalProject"><img src="./images/symphonicLinkUp.png" alt="">
+                        <p class="descr">Final project at The Iron Yard made to showcase our knowledge. Made with React.  Uses Parse and Google Map SDK's.</p></a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row examples">
+                <div class="col-sm-4">
+                    <div class="holder">
+                        <img src="http://lorempixel.com/300/300/sports/" alt="">
+                        <p class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores reiciendis sint excepturi.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="holder">
+                        <img src="http://lorempixel.com/300/300/sports/5" alt="">
+                        <p class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sint tempore quasi!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="holder">
+                        <img src="http://lorempixel.com/300/300/sports/6" alt="">
+                        <p class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quas blanditiis repellat.</p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="col-sm-2">
+                    <a href="https://www.facebook.com/jonathon.gregory" target="_"><img class="icons facebook" src="./images/facebook.ico" alt=""></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://twitter.com/JCharGreg" target="_"><img class="icons twitter" src="./images/twitter.svg" alt=""></a>
+                </div>
+                <div class="col-sm-4">
+                    <p style="line-height: 3; text-align: center;"><a href="mailto:" target="_">jonathon.c.gregory@gmail.com</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://medium.com/@JCharGreg" target="_"><img class="icons medium" src="./images/medium.ico" alt=""></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://github.com/Excelthiorrr597" target="_"><img class="icons github" src="./images/github.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
